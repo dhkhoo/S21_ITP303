@@ -140,7 +140,7 @@ White: #fffcf7;
             <p>We want to bring together student and alumni streamers from USC to collaborate, connect, and help support each other's platforms!</p>
     	</div>
         <div class="col-right">
-            <a class="links" href="https://303.itpwebdev.com/~dhkhoo/final_project/twitch.php"><button type="button" class="btn btn-danger"> Twitch Team <i class="fab fa-twitch"></i> </button></a>
+            <a class="links" href="twitch.php"><button type="button" class="btn btn-danger"> Twitch Team <i class="fab fa-twitch"></i> </button></a>
             <br>
             <a class="links" href="https://discord.gg/G8g4P82" target="_blank"><button type="button" class="btn btn-danger"> Community Discord <i class="fab fa-discord"></i> </button></a>
         </div>

@@ -9,7 +9,7 @@
         <div class="navbar-collapse collapse" id="collapseNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://303.itpwebdev.com/~dhkhoo/final_project/twitch.php">Twitch Team</a>
+                    <a class="nav-link" href="twitch.php">Twitch Team</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="eboard.php">E-Board</a>
