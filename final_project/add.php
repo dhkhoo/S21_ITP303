@@ -117,8 +117,8 @@ $authorization = getenv("AUTHORIZATION");
 	function ajax(endpoint, returnFunction) {
 	    let httpRequest = new XMLHttpRequest();
 	    httpRequest.open("GET", endpoint);
-	    httpRequest.setRequestHeader('Client-Id', <?php echo $client ?>);
-	    httpRequest.setRequestHeader('Authorization', <?php echo $authorization ?>);
+	    httpRequest.setRequestHeader('Client-Id', '<?php echo $client ?>');
+	    httpRequest.setRequestHeader('Authorization', '<?php echo $authorization ?>');
 	    httpRequest.send();
 
 	    httpRequest.onreadystatechange = function() {
