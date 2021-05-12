@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kitty Kafe | Home</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    <style>
+        
+        h1{font-size: 60px;}
+        
+        .thumbnail{width: 100%;}
+        
+        .row{
+            margin-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: lightgrey 2px solid;
+        }
+        
+        
+        .alternate {display:none;}
+        
+        
+         /* iPad Styles ( >=768px )  */
+        @media (min-width: 768px) {
+            .header{height: 400px;  }
+            
+            .alternate{display:block;}
+            
+            .alternate-off{display:none;}
+            
+            .text{
+                margin-top:auto;
+                margin-bottom: auto;
+            }
+        }
+        
+        /* Small desktop ( >=992px) */
+        @media (min-width: 992px) {
+            .header{height: 500px;}
+
+            .thumbnail{width: 60%;}
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="home.html"> 
+                <span class="icon-text">
+                    <img id="icon" src="img/cat.png" alt="cat icon"> 
+                    Kitty Kafe
+                  </span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                </ul>
+                  
+            </div>
+          </div>
+    </nav>
+    <!-- header-->
+    <div class="header">
+        <h1>Kitty Kafe</h1>
+        <p class="slogan">a home for cats and cat lovers</p>
+    </div>
+
+    <!-- featured -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-7 mx-auto d-block text">
+                <h2>a space of warmth and comfort</h2>
+                <p>It has never been easier to just sit down and be surrounded by love and adoration. There's always a kitten around the corner for you to pet, cuddle, and relax with! </p>
+            </div>
+            <div class="col-sm-12 col-md-5">
+                <img class="thumbnail mx-auto d-block" src="img/lucky-cat.jpg" alt="image of a cat">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-7 alternate">
+                <img class="thumbnail mx-auto d-block" src="img/coffee.jpg">
+            </div>
+            
+            <div class="col-sm-12 col-md-5 text">
+                <h2>feeling hungry? we'll handle it! </h2>
+                <p>We have savory coffee, tea, and pastries, at the tip of your fingertips! We're here to make your time as enjoyable and relaxing as we can~ </p>
+            </div>
+            <div class="col-sm-12 alternate-off">
+                <img class="thumbnail mx-auto d-block" src="img/coffee.jpg">
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <div class="footer">2021 Kitty Kafe, Inc.</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>

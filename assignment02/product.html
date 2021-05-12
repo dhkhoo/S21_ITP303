@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Desiree Khoo | Responsive Product Page </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<style> 
+        
+        body {
+            margin:0px;
+            padding:0px;
+            font-family: 'Lato', sans-serif;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        
+        /* Mobile Styles (0px - 767px) */
+        #header {
+            background-color: lightblue;
+            padding: 20px;
+            font-weight: 300;
+            text-align: center;
+        }
+        
+        h2{font-weight: 800;}
+        
+        .name-2{display:none;}
+        
+        #content{
+            margin: 10px;
+            width: 98%;
+        }
+        
+        #sims-wrapper{
+            width:400px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        
+        .sims{
+            width: 100%;
+            align-content: center;
+        }
+        
+        #promo-box{
+            border: solid 2px darkblue;
+            background-color: skyblue;
+            padding: 10px;
+            text-align: center;
+            width: 75%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        
+        #related-wrapper{
+            margin-left:auto;
+            margin-right:auto;
+        }
+        
+        .product{
+            margin: 10px;
+			overflow: hidden;		
+            position: relative;
+            margin-left:auto;
+            margin-right:auto;
+            border: 4px black solid;
+            height: auto;
+            padding:0px;
+            width: 45%;
+            background-color:black;
+        }
+        
+        .product > img {
+            width:100%;
+            height:auto;
+        }
+        
+        .overlay{
+            position:absolute;
+            top:0px;
+            left:0px;
+            right:0px;
+            bottom:0px;
+            text-align: center;
+            padding-top:100px;
+            background-color:rgba(0,0,0,.6);
+            color: #fff;
+            visibility:hidden;
+            font-size: 25px;
+        }
+
+        .product:hover .overlay{
+            visibility:visible;        
+        }
+        
+        .floatLeft{
+            float:left;
+        }
+        
+        .clearFloat{
+            clear:both;
+        }
+        
+
+        /* iPad Styles ( >=768px )  */
+        @media (min-width: 768px) {
+            .name{display:none;}
+            
+            .name-2{display: contents;}
+            
+            
+            #promo-box{
+                width: 90%;
+            }
+            
+            #sims-wrapper{
+                float:left;
+                width: 45%;
+            }
+            
+            #info {
+                float:left;
+                width: 50%;
+                margin-left: 15px;
+            }
+            
+            .product{
+                margin:33px;
+                width: 40%;
+                float: left;
+            }
+            
+            .row{
+                margin-left:auto;
+                margin-right:auto;
+                width: 100%;
+            }
+        }
+        
+        /* Small desktop ( >=992px) */
+        @media (min-width: 992px) {
+            
+            
+            
+            #content{
+                width: 70%;
+                margin-left:auto;
+                margin-right: auto;
+            }
+            
+            #sims-wrapper{
+                width: 30%;
+            }
+            
+             #info {
+                float:left;
+                width: 60%;
+                margin-left: 50px;
+            }
+            
+            .product{
+                float:left;
+                width: 20%;
+                margin: 13px;
+            }
+        }
+        
+	</style>
+</head>
+    <body>
+        <div id="header">
+            <h1>Electronic Arts Reseller</h1>
+        </div>
+        <div id="content">
+            <h2 class="name">The Sims 4</h2>
+            <div id="sims-wrapper">
+                <img class="sims" src="img/sims4.jpg" alt="image of the Sims 4">
+                <p id="promo-box"> Use promo code ORIGINS to get 10% off! </p>
+            </div>
+            <div id="info">
+                <h2 class="name-2">The Sims 4</h2>
+                <h3>Price: $39.99</h3>
+                <p>
+                    <img class="floatLeft" src="img/ratings.png" alt="ratings for The Sims 4">
+                    2,400 reviews
+                </p>
+                <ul>
+                    <li><strong>Create unique sims:</strong> A variety of sims are yours to personalize, each with distinct appearances, dynamic personalities, and inspiring aspirations</li>
+                    <li><strong>Build the perfect home:</strong> Construct the home of your, and their dreams by planning its layout, choosing furnishings, and altering the landscape and terrain</li>
+                    <li><strong>Explore vibrant worlds:</strong> Travel between locations, discover amazing and distinctive neighborhoods, and encounter captivating venues</li>
+                    <li><strong>Play with life:</strong> Control the rich and entertaining moments of your Sims’ lives from their relationships to their careers</li>
+                </ul>
+            </div>
+            <div class="clearFloat"></div>
+            <h3>Related Products</h3>
+            <div class="related-wrapper">
+                <div class="row">
+                    <div class="product">
+                        <img src="img/city-living-expansion.jpg" alt="City Living Expansion Pack">
+                        <div class="overlay">
+                            <p>City Living Expansion Pack</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/dine-out-game-pack.jpg" alt="Dine Out Game Pack">
+                        <div class="overlay">
+                            <p>Dine Out Game Pack</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="product">
+                        <img src="img/outdoor-retreat-gamepack.jpg" alt="Outdoor Retreat Game Pack">
+                        <div class="overlay">
+                            <p>Outdoor Retreat Game Pack</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/seasons-expansion.jpg" alt="Seasons Expansion Pack">
+                        <div class="overlay">
+                            <p>Seasons Expansion Pack</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

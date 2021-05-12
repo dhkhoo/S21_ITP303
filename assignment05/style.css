@@ -1,0 +1,54 @@
+#content{
+	width: 90%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 50px;
+}
+
+.col{
+	margin-bottom: 10px;
+}
+.card-img-overlay {
+    text-align: center;
+    background-color:rgba(0,0,0,.6);
+    color: #fff;
+    visibility:hidden;
+    border-radius: 0px;
+}
+
+.card:hover .card-img-overlay{
+	visibility: visible;
+}
+
+.info{
+	text-align:center;
+}
+
+p{
+	margin:2px;
+}
+
+p.card-text {
+	font-size: 78%;
+}
+
+body{
+	background-color: lightgrey;
+}
+
+#currently, #total {
+	font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    p.card-text {
+		font-size: 85%;
+	}
+}
+        
+/* Small desktop ( >=992px) */
+@media (min-width: 992px) {
+    p.card-text {
+		font-size: 90%;
+	}
+}

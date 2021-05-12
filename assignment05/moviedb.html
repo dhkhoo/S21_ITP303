@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Movie DB API Search</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="content">
+	<div class="container-fluid">
+		<h1>Movie Search</h1>
+		<form action="" method="" class="col-12" id="search-form">
+			<div class="row">
+				<div class="col-12 mt-4 col-sm-6 col-lg-4">
+					<input type="text" name="" class="form-control" id="search" placeholder="Search...">
+				</div>
+				<div class="col-12 mt-4 col-sm-auto">
+					<button type="submit" class="btn btn-primary btn-block">Search</button>
+				</div>
+			</div>
+		</form>
+		<p class="mt-2">Showing <span id="currently"></span> of <span id = "total"></span> result(s):</p>
+	
+		
+	<div class="container">
+		<div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 movies">
+			<div class="col"> <!-- SAMPLE DESIGN appended using javascript-->
+				<div class="card">
+				  	<img class="card-img" src="Image-Not-Available.png" alt="Card image">
+				  	<div class="card-img-overlay">
+				    	<p class="card-text rate">Ratings</p>
+				    	<p class="card-text votes">Voters</p>
+				    	<p class="card-text synopsis">Synopsis</p>
+					</div>
+				</div>
+				<div class="info">
+					<p class="name">Name of Movie</p>
+					<p class="release">Release Date</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+	</div>
+</div>
+
+
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

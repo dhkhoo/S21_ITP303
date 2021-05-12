@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kitty Kafe | Our Team</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    <style>
+        
+        h1{font-size: 60px;}
+        
+        .thumbnail{
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        
+        .row{
+            margin-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: lightgrey 2px solid;
+        }
+        
+        .profile{margin-bottom: 30px;}
+        
+        .btn-primary{
+            background-color:#B28647;
+            border-color: grey;
+        }
+        
+        .btn-primary:hover{
+            background-color: grey;
+            border-color: grey;
+        }
+        
+        
+         /* iPad Styles ( >=768px )  */
+        @media (min-width: 768px) {
+            .header{height: 400px;}
+            .thumbnail{
+                width: 70%;
+                margin-bottom: 20px;
+            } 
+        }
+        
+        /* Small desktop ( >=992px) */
+        @media (min-width: 992px) {
+            .header{height: 500px;}
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="home.html"> 
+                <span class="icon-text">
+                    <img id="icon" src="img/cat.png" alt="cat icon"> 
+                    Kitty Kafe
+                  </span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                </ul>
+                  
+            </div>
+          </div>
+    </nav>
+    <!-- header-->
+    <div class="header">
+        <h1>Our Team</h1>
+        <p class="slogan">our team of cats lovers</p>
+    </div>
+
+    <!-- featured -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 text-center profile">
+                <img class="thumbnail mx-auto d-block" src="img/gal-1.jpg" alt="image of a cat">
+                <h2>Jade Coleman</h2>
+                <p>Co-Founder</p>
+                <p>Cat lover and foodie to the end, Jade decided to create Kitty Kafe as a place for her to take in and give lives to strays cats, all of which  deserve a home and a place which care for them. </p>
+                <button type="button" class="btn btn-primary">View More</button>
+            </div>
+            
+            <div class="col-sm-12 col-md-4 text-center profile">
+                <img class="thumbnail mx-auto d-block" src="img/guy.jpg" alt="image of a cat">
+                <h2>Fletcher Medina</h2>
+                <p>Co-Founder</p>
+                <p>When Jade came up to Fletcher about the idea of a Cat Cafe, he was immediately in. Together, they built the cafe which we see today from the ground up and made a home for all the cats to live and enjoy. </p>
+                <button type="button" class="btn btn-primary">View More</button>
+            </div>
+            
+            <div class="col-sm-12 col-md-4 text-center profile">
+                <img class="thumbnail mx-auto d-block" src="img/gal-2.jpg" alt="image of a cat">
+                <h2>Nadia Nelson</h2>
+                <p>Barista</p>
+                <p>For Nadia, making drinks has been one of her passions for years. Being able to support such an amazing place and being able to care for so many cats, has been a dream job she never though of having. </p>
+                <button type="button" class="btn btn-primary">View More</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <div class="footer">2021 Kitty Kafe, Inc.</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.footer{
+    color:#fffcf7;
+    padding:15px 5px;
+    background-color:#A5A5A5;
+
+}
+
+.mail{
+	text-decoration: none;
+	color:#fffcf7;
+	font-size: 20px;
+}
+
+.mail:hover{
+	color:#f35b53;
+}
+
+.row {
+	margin:0px;
+	padding:0px;
+}
+
+.nav-link {
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+
+.nav-item a:hover {
+	color:#f35b53 !important;
+}
+
+#logo-img{
+    width: 100%;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0px;
+}
+
+body {
+    background-color: #fffcf7;
+    margin:0px;
+    padding:0px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}

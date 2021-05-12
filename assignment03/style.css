@@ -1,0 +1,44 @@
+#icon {
+    width: 50px;
+    margin: 5px;
+    height:auto;
+}
+
+.icon-text {
+    font-family: 'Caveat', cursive;
+    font-size:40px;
+    margin-right: 15px;
+    color:white;
+}
+
+.header{
+    background-image: url(img/cafe.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    color: white;
+    
+}
+
+h1{
+    padding-top: 50px;
+    font-family: 'Caveat', cursive;
+}
+        
+.slogan{font-size: 20px;}
+
+.bg {background-color:#B28647;}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container{margin: 20px;}
+
+.footer{
+    text-align: center;
+    color:black;
+    padding-bottom: 20px;
+}
