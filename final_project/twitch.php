@@ -22,6 +22,9 @@ $rowcount = mysqli_num_rows($results);
 
 $mysqli->close();
 
+$client = getenv("CLIENTID");
+$authorization = getenv("AUTHORIZATION");
+
 ?>
 
 <!DOCTYPE html>
@@ -234,8 +237,8 @@ $mysqli->close();
     function ajax(endpoint, returnFunction) {
     let httpRequest = new XMLHttpRequest();
     httpRequest.open("GET", endpoint);
-    httpRequest.setRequestHeader('Client-Id', '');
-    httpRequest.setRequestHeader('Authorization', '');
+    httpRequest.setRequestHeader('Client-Id', <?php echo $client ?>);
+    httpRequest.setRequestHeader('Authorization', <?php echo $authorization ?>);
     httpRequest.send();
 
     httpRequest.onreadystatechange = function() {
